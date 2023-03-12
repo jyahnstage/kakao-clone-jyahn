@@ -1,0 +1,23 @@
+#media-query {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: rgb(0, 0, 0);
+    color: var(--yellow);
+    position: absolute;
+    z-index: 99;
+    height: 300px;
+    width: 100vh;
+    top: 100px;
+    text-align: center;
+    border-radius: 100px;
+    position: fixed;
+}
+
+
+@media screen and (max-width: 20000px) {
+    #media-query {
+        display: none;
+    }
+}

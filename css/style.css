@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam:wght@300;400;700&display=swap');
+
+@import "reset.css";
+@import "variables.css";
+
+/*components*/
+@import "components/media-query.css";
+@import "components/status-bar.css";
+
+/*screens*/
+@import "screens/cover.css";
+@import "screens/login.css";
+@import "screens/friends.css";
+
+
+body {
+    font-family: 'Kalam', cursive;
+    box-sizing: border-box;
+    width: 480px;
+    height: 1067px;
+}

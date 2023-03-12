@@ -1,0 +1,102 @@
+
+
+.welcome-text {
+    margin: 120px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome-text h1 {
+    font-size: 30px;
+}
+
+.welcome-text span {
+    font-size: 18px;
+    margin: 20px 80px 0px 80px;
+    opacity: 0.5;
+}
+
+.welcome-text p {
+    font-size: 18px;
+    opacity: 0.5;
+    margin: 3px 10px;
+}
+
+.login-form, #user-login {
+    display: flex;
+    flex-direction: column;
+}
+
+#user-login {
+    padding: 0px 25px;
+}
+
+#user-login input {
+    width: 100%;
+    
+    border: none;
+}
+
+#user-login input:nth-child(1), #user-login input:nth-child(2) {
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+@keyframes shiver {
+    0% {
+        transform:translateY(0px);
+}
+    25% {
+        transform:translateY(5px);
+}
+    50% {
+        transform:translateY(0px);
+}
+    75% {
+        transform:translateY(3px);
+}
+    100% {
+        transform:translateY(0px);
+}
+}
+
+.submit-btn-first {
+    margin: 30px 0px 15px 0px;
+    padding: 15px 0px;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.04);
+    transition: background-color 0.2s ease-in-out;
+    
+}
+
+.submit-btn-first:hover, .submit-btn-second:hover {
+    background-color: var(--yellow);
+    animation: shiver 0.5s linear;
+}
+
+.submit-btn-second {
+    padding: 15px 0px;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+::placeholder {
+    opacity: 0.5;
+}
+
+.find-account {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.find-account a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+input:focus {outline:none;}

@@ -1,0 +1,35 @@
+.status-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 5px;
+    font-size: 15px;
+    position: fixed;
+    top: 0px;
+    width: 480px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.status-bar__column {
+    width: 33%;
+}
+
+.status-bar .status-bar__column:first-child span{
+    margin-right: 2px;
+}
+
+.status-bar .status-bar__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.status-bar .status-bar__column:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.status-bar .status-bar__column:last-child i {
+    margin-left: 4px;
+}
