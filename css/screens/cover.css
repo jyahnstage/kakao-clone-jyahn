@@ -1,10 +1,21 @@
 .logo { 
     height: 1067px;
     width: 480px;
-    display: flex;
+    display: flex;;
     justify-content: center;
     align-items: center;
     background-color: var(--yellow);
     color: var(--black);
+    
+}
+
+.logo i {
     font-size: 120px;
+    z-index: 2;
+}
+
+.logo a {
+    font-size: 50px;
+    opacity: 0.5;
+    z-index: 3;
 }
