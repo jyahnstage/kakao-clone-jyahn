@@ -1,0 +1,31 @@
+.friends-display {
+    margin-top: 80px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.04);
+    padding: 10px 0px;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.friends-display span {
+    margin: 0px 7px;
+}
+
+.friends-display i {
+    opacity: 0.2;
+}
+
+.channel-title {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 20px 20px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.4);
+}

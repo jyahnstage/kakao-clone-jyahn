@@ -1,0 +1,48 @@
+.user-component {
+    margin: 5px 20px;
+    display: flex;
+}
+
+.avatar-panda {
+    width: 80px;
+    height:80px;
+    border-radius: 25px;
+}
+
+.avatar-channel {
+    width: 50px;
+    height:50px;
+    border-radius: 15px;
+}
+
+.avatar-name__channel {
+    font-weight: 400;
+}
+
+.avatar-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    width: 480px;
+    margin-right: 10px;
+}
+
+.avatar-name__panda {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.avatar-name__channel {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.avatar-text__right--channel i {
+    margin-left: 5px;
+    
+}
+
+.avatar-text__right--channel {
+    opacity: 0.4;
+}

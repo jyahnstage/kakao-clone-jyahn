@@ -1,21 +1,32 @@
 .logo { 
-    height: 1067px;
+    height: 100vw;
     width: 480px;
     display: flex;;
     justify-content: center;
     align-items: center;
     background-color: var(--yellow);
     color: var(--black);
-    
 }
 
 .logo i {
     font-size: 120px;
-    z-index: 2;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .logo a {
-    font-size: 50px;
-    opacity: 0.5;
-    z-index: 3;
+    font-size: 20px;
+    position: absolute;
+    opacity: 0;
+    color: tomato;
+    text-decoration: none;
+    animation: fadein 1s ease-in-out forwards;
+    animation-delay: 0.5s;
 }

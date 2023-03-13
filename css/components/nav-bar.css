@@ -1,0 +1,41 @@
+.nav-bar {
+    position: absolute;
+    bottom: 0;
+}
+
+.nav-bar__ul {
+    width: 480px;
+    padding: 17px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3F4F6;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.nav-bar__icon i {
+    color: var(--black);
+}
+
+.nav-bar__list {
+    font-size: 22px;
+}
+
+.nav-bar__badge {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 4px;
+    left: 177px;
+    color: white;
+    background-color: tomato;
+    padding: 5px;
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 12px;
+}
